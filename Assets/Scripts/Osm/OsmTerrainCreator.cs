@@ -38,6 +38,7 @@ namespace Osm
             {
                 var n = GameObject.CreatePrimitive(PrimitiveType.Sphere);
                 n.name = node.id.ToString();
+                n.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
                 n.transform.position = new Vector3(node.lon * 1000, 0, node.lat * 1000);
                 n.transform.parent = worldObject.transform;
             });
