@@ -1,25 +1,28 @@
 using System;
-using System.Collections.Generic;
+using Osm.OsmResponseObjects;
 
-[Serializable]
-public class OsmNode: OsmData
+namespace Osm.OsmDataObjects
 {
-    public float lat;
-    public float lon;
+    [Serializable]
+    public class OsmNode: OsmData
+    {
+        public float lat;
+        public float lon;
 
-    public OsmNode(string type, long id, float lat, float lon): base(type, id)
-    {
-        this.lat = lat;
-        this.lon = lon;
-    }
+        public OsmNode(string type, long id, float lat, float lon): base(type, id)
+        {
+            this.lat = lat;
+            this.lon = lon;
+        }
     
-    public static OsmNode FromElement(OsmElement element)
-    {
-        return new OsmNode(
-            element.type,
-            element.id,
-            element.lat,
-            element.lon
-        );
+        public static OsmNode FromElement(OsmElement element)
+        {
+            return new OsmNode(
+                element.type,
+                element.id,
+                element.lat,
+                element.lon
+            );
+        }
     }
 }

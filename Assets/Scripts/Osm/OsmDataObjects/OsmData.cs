@@ -1,14 +1,17 @@
 using System;
 
-[Serializable]
-public class OsmData
+namespace Osm.OsmDataObjects
 {
-    public string type;
-    public long id;
-
-    public OsmData(string type, long id)
+    [Serializable]
+    public class OsmData
     {
-        this.type = type;
-        this.id = id;
+        public string type;
+        public long id;
+
+        public OsmData(string type, long id)
+        {
+            this.type = type;
+            this.id = id;
+        }
     }
 }

@@ -1,25 +1,29 @@
 using System;
 using System.Collections.Generic;
+using Osm.OsmResponseObjects;
 
-[Serializable]
-public class OsmWay : OsmData
+namespace Osm.OsmDataObjects
 {
-    public long[] nodes;
-    public Dictionary<string, string> tags;
-
-    public OsmWay(string type, long id, long[] nodes, Dictionary<string, string> tags) : base(type, id)
+    [Serializable]
+    public class OsmWay : OsmData
     {
-        this.nodes = nodes;
-        this.tags = tags;
-    }
+        public long[] nodes;
+        public Dictionary<string, string> tags;
 
-    public static OsmWay FromElement(OsmElement element)
-    {
-        return new OsmWay(
-            element.type,
-            element.id,
-            element.nodes,
-            element.tags
-        );
+        public OsmWay(string type, long id, long[] nodes, Dictionary<string, string> tags) : base(type, id)
+        {
+            this.nodes = nodes;
+            this.tags = tags;
+        }
+
+        public static OsmWay FromElement(OsmElement element)
+        {
+            return new OsmWay(
+                element.type,
+                element.id,
+                element.nodes,
+                element.tags
+            );
+        }
     }
 }
