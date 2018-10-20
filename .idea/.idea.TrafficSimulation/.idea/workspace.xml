@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f6ebca3-c66f-493c-9e85-31138adbbe7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmRect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmRect.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmWorldData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmTerrainCreator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmTerrainCreator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TrafficSimulation/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrafficSimulation/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TrafficSimulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TrafficSimulation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmDataSet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmDataSet.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmWorldData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmNode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmNode.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmWay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmWay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmResponseObjects/OsmElement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmResponseObjects/OsmElement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmResponseObjects/OsmResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmResponseObjects/OsmResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmTerrainCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Osm/OsmTerrainCreator.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +24,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="4939" />
+          <entry key="cs" value="5025" />
           <entry key="rsp" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="4939" />
+          <entry key="C#" value="5025" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -65,19 +53,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Osm/OsmLoader.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="442">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
-                <marker date="1540050545102" expanded="true" signature="6:189" ph="..." />
-                <marker date="1540050545102" expanded="true" signature="204:2982" ph="{...}" />
-                <marker date="1540050545102" expanded="true" signature="249:2980" ph="{...}" />
-                <marker date="1540050545102" expanded="true" signature="566:646" ph="{...}" />
-                <marker date="1540050545102" expanded="true" signature="732:988" ph="{...}" />
-                <marker date="1540050545102" expanded="true" signature="1110:1343" ph="{...}" />
-                <marker date="1540050545102" expanded="true" signature="1441:2262" ph="{...}" />
-                <marker date="1540050545102" expanded="true" signature="1644:2106" ph="{...}" />
-                <marker date="1540050545102" expanded="true" signature="1696:2092" ph="{...}" />
-                <marker date="1540050545102" expanded="true" signature="2406:2974" ph="{...}" />
+                <marker date="1540052063466" expanded="true" signature="6:189" ph="..." />
+                <marker date="1540052063466" expanded="true" signature="204:2978" ph="{...}" />
+                <marker date="1540052063466" expanded="true" signature="249:2976" ph="{...}" />
+                <marker date="1540052063466" expanded="true" signature="562:642" ph="{...}" />
+                <marker date="1540052063466" expanded="true" signature="728:984" ph="{...}" />
+                <marker date="1540052063466" expanded="true" signature="1106:1339" ph="{...}" />
+                <marker date="1540052063466" expanded="true" signature="1437:2258" ph="{...}" />
+                <marker date="1540052063466" expanded="true" signature="1640:2102" ph="{...}" />
+                <marker date="1540052063466" expanded="true" signature="1692:2088" ph="{...}" />
+                <marker date="1540052063466" expanded="true" signature="2402:2970" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -98,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmRect.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="202">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
               <folding>
                 <marker date="1540050544834" expanded="true" signature="7:33" ph="..." />
                 <marker date="1540050544834" expanded="true" signature="63:953" ph="{...}" />
@@ -158,20 +146,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Osm/OsmTerrainCreator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+            <state relative-caret-position="255">
+              <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
               <folding>
-                <marker date="1540050528573" expanded="true" signature="6:140" ph="..." />
-                <marker date="1540050528573" expanded="true" signature="155:2879" ph="{...}" />
-                <marker date="1540050528573" expanded="true" signature="250:2877" ph="{...}" />
-                <marker date="1540050528573" expanded="true" signature="283:973" ph="{...}" />
-                <marker date="1540050528573" expanded="true" signature="452:963" ph="/* Pole for orientation ... */" />
-                <marker date="1540050528573" expanded="true" signature="1034:2871" ph="{...}" />
-                <marker date="1540050528573" expanded="true" signature="1134:1402" ph="{...}" />
-                <marker date="1540050528573" expanded="true" signature="1418:2861" ph="/* var mesh = new Mesh(); ... */" />
+                <marker date="1540052297946" expanded="true" signature="6:140" ph="..." />
+                <marker date="1540052297946" expanded="true" signature="155:2916" ph="{...}" />
+                <marker date="1540052297946" expanded="true" signature="250:2914" ph="{...}" />
+                <marker date="1540052297946" expanded="true" signature="283:973" ph="{...}" />
+                <marker date="1540052297946" expanded="true" signature="452:963" ph="/* Pole for orientation ... */" />
+                <marker date="1540052297946" expanded="true" signature="1034:2908" ph="{...}" />
+                <marker date="1540052297946" expanded="true" signature="1143:1439" ph="{...}" />
+                <marker date="1540052297946" expanded="true" signature="1455:2898" ph="/* var mesh = new Mesh(); ... */" />
               </folding>
             </state>
           </provider>
@@ -251,9 +239,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmWorldData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DrawCalculator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/World.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Osm/OsmTerrainCreator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Osm/OsmLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmRect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Osm/OsmLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Osm/OsmTerrainCreator.cs" />
       </list>
     </option>
   </component>
@@ -370,12 +358,12 @@
       <workItem from="1540026882805" duration="1033000" />
       <workItem from="1540028650371" duration="479000" />
       <workItem from="1540029145877" duration="44000" />
-      <workItem from="1540029206342" duration="21272000" />
+      <workItem from="1540029206342" duration="22160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22828000" />
+    <option name="totallyTimeSpent" value="23716000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,42 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Osm/OsmTerrainCreator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-          <folding>
-            <marker date="1540050528573" expanded="true" signature="6:140" ph="..." />
-            <marker date="1540050528573" expanded="true" signature="155:2879" ph="{...}" />
-            <marker date="1540050528573" expanded="true" signature="250:2877" ph="{...}" />
-            <marker date="1540050528573" expanded="true" signature="283:973" ph="{...}" />
-            <marker date="1540050528573" expanded="true" signature="452:963" ph="/* Pole for orientation ... */" />
-            <marker date="1540050528573" expanded="true" signature="1034:2871" ph="{...}" />
-            <marker date="1540050528573" expanded="true" signature="1134:1402" ph="{...}" />
-            <marker date="1540050528573" expanded="true" signature="1418:2861" ph="/* var mesh = new Mesh(); ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Osm/OsmLoader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-          <folding>
-            <marker date="1540050545102" expanded="true" signature="6:189" ph="..." />
-            <marker date="1540050545102" expanded="true" signature="204:2982" ph="{...}" />
-            <marker date="1540050545102" expanded="true" signature="249:2980" ph="{...}" />
-            <marker date="1540050545102" expanded="true" signature="566:646" ph="{...}" />
-            <marker date="1540050545102" expanded="true" signature="732:988" ph="{...}" />
-            <marker date="1540050545102" expanded="true" signature="1110:1343" ph="{...}" />
-            <marker date="1540050545102" expanded="true" signature="1441:2262" ph="{...}" />
-            <marker date="1540050545102" expanded="true" signature="1644:2106" ph="{...}" />
-            <marker date="1540050545102" expanded="true" signature="1696:2092" ph="{...}" />
-            <marker date="1540050545102" expanded="true" signature="2406:2974" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmWay.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -579,8 +531,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Osm/OsmDataObjects/OsmRect.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state relative-caret-position="202">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
           <folding>
             <marker date="1540050544834" expanded="true" signature="7:33" ph="..." />
             <marker date="1540050544834" expanded="true" signature="63:953" ph="{...}" />
@@ -588,6 +540,42 @@
             <marker date="1540050544834" expanded="true" signature="300:724" ph="{...}" />
             <marker date="1540050544834" expanded="true" signature="757:833" ph="{...}" />
             <marker date="1540050544834" expanded="true" signature="867:945" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Osm/OsmLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <marker date="1540052063466" expanded="true" signature="6:189" ph="..." />
+            <marker date="1540052063466" expanded="true" signature="204:2978" ph="{...}" />
+            <marker date="1540052063466" expanded="true" signature="249:2976" ph="{...}" />
+            <marker date="1540052063466" expanded="true" signature="562:642" ph="{...}" />
+            <marker date="1540052063466" expanded="true" signature="728:984" ph="{...}" />
+            <marker date="1540052063466" expanded="true" signature="1106:1339" ph="{...}" />
+            <marker date="1540052063466" expanded="true" signature="1437:2258" ph="{...}" />
+            <marker date="1540052063466" expanded="true" signature="1640:2102" ph="{...}" />
+            <marker date="1540052063466" expanded="true" signature="1692:2088" ph="{...}" />
+            <marker date="1540052063466" expanded="true" signature="2402:2970" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Osm/OsmTerrainCreator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="39" column="44" lean-forward="true" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+          <folding>
+            <marker date="1540052297946" expanded="true" signature="6:140" ph="..." />
+            <marker date="1540052297946" expanded="true" signature="155:2916" ph="{...}" />
+            <marker date="1540052297946" expanded="true" signature="250:2914" ph="{...}" />
+            <marker date="1540052297946" expanded="true" signature="283:973" ph="{...}" />
+            <marker date="1540052297946" expanded="true" signature="452:963" ph="/* Pole for orientation ... */" />
+            <marker date="1540052297946" expanded="true" signature="1034:2908" ph="{...}" />
+            <marker date="1540052297946" expanded="true" signature="1143:1439" ph="{...}" />
+            <marker date="1540052297946" expanded="true" signature="1455:2898" ph="/* var mesh = new Mesh(); ... */" />
           </folding>
         </state>
       </provider>

@@ -33,13 +33,13 @@ namespace Osm
 
         private void CreateTerrain(OsmWorldData worldData)
         {
-            Debug.Log(worldData.nodes.Count);
+            var worldObject = new GameObject("World");
             worldData.nodes.ForEach(node =>
             {
                 var n = GameObject.CreatePrimitive(PrimitiveType.Sphere);
                 n.name = node.id.ToString();
                 n.transform.position = new Vector3(node.lon * 1000, 0, node.lat * 1000);
-                Instantiate(n);
+                n.transform.parent = worldObject.transform;
             });
             
 //            var mesh = new Mesh();

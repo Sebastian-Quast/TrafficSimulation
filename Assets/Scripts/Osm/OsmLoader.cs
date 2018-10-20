@@ -11,11 +11,10 @@ namespace Osm
     public class OsmLoader : MonoBehaviour
     {
         private readonly HttpClient client = new HttpClient();
-
-        public float south = 50.80802294398169f;
-        public float west = 7.2391319274902335f;
-        public float north = 50.82605366331441f;
-        public float east = 7.284407615661621f;
+        public float south = 50.9198094295233f;
+        public float west = 7.198963165283203f;
+        public float north = 50.97464290902178f;
+        public float east = 7.38006591796875f;
 
         public async Task<OsmWorldData> LoadData()
         {
