@@ -17,7 +17,13 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="OsmData.cs" t="Include" />
+          <e p="OsmDataSet.cs" t="Include" />
+          <e p="OsmElement.cs" t="Include" />
           <e p="OSMLoader.cs" t="Include" />
+          <e p="OsmNode.cs" t="Include" />
+          <e p="OSMResponse.cs" t="Include" />
+          <e p="OsmWay.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
