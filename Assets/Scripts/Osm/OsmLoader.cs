@@ -23,8 +23,10 @@ namespace Osm
 
         private async Task<OsmWorldData> GetData(float s, float w, float n, float e)
         {
-            var responseMessage = await client.PostAsync("https://overpass-api.de/api/interpreter",
-                GetAreaRequestBody("way", "highway", s, w, n, e));
+            var responseMessage = await client.PostAsync(
+                "https://overpass-api.de/api/interpreter",
+                GetAreaRequestBody("way", "highway", s, w, n, e)
+            );
             return await ParseResponse(responseMessage, s, w, n, e);
         }
 
@@ -32,10 +34,10 @@ namespace Osm
         {
             var responseString = await response.Content.ReadAsStringAsync();
             var osmResponse = JsonUtility.FromJson<OsmResponse>(responseString);
-            return ToDataSet(osmResponse, s, w, n, e);
+            return ToWorld(osmResponse, s, w, n, e);
         }
 
-        private OsmWorldData ToDataSet(OsmResponse response, float s, float w, float n, float e)
+        private OsmWorldData ToWorld(OsmResponse response, float s, float w, float n, float e)
         {
             var nodes = new List<OsmNode>();
             var ways = new List<OsmWay>();
@@ -56,22 +58,24 @@ namespace Osm
                         break;
                 }
             }
-        
-            return new OsmWorldData(response.version, response.generator, new OsmRect(s, w, n, e), response.osm3s, ways, nodes, others);
+
+            return new OsmWorldData(response.version, response.generator, new OsmRect(s, w, n, e), response.osm3s, ways,
+                nodes, others);
         }
 
-        private FormUrlEncodedContent GetAreaRequestBody(string requestObject, string wayType, float s, float w, float n,
+        private FormUrlEncodedContent GetAreaRequestBody(string requestObject, string wayType, float s, float w,
+            float n,
             float e)
         {
-            var newString = string.Format(
-                "[out:json][timeout:25]; ( {0}['{1}']({2},{3},{4},{5}); ); out body; >; out skel qt;",
-                requestObject,
-                wayType,
-                s.ToString(CultureInfo.InvariantCulture),
-                w.ToString(CultureInfo.InvariantCulture),
-                n.ToString(CultureInfo.InvariantCulture),
-                e.ToString(CultureInfo.InvariantCulture)
-            );
+            var newString =
+                $"[out:json][timeout:25];" +
+                $" ( {requestObject}['{wayType}'](" +
+                $"{s.ToString(CultureInfo.InvariantCulture)}," +
+                $"{w.ToString(CultureInfo.InvariantCulture)}," +
+                $"{n.ToString(CultureInfo.InvariantCulture)}," +
+                $"{e.ToString(CultureInfo.InvariantCulture)}); " +
+                $"); " +
+                $"out body; >; out skel qt;";
             return new FormUrlEncodedContent(new Dictionary<string, string> {{"data", newString}});
         }
     }
