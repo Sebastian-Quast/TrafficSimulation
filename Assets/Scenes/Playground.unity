@@ -122,6 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 687892592}
   - component: {fileID: 687892591}
+  - component: {fileID: 687892593}
   m_Layer: 0
   m_Name: OSMManager
   m_TagString: Untagged
@@ -140,10 +141,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 432fd26aa8fd9ea4aa452f94cf11dae0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  south: 50.80802294398169
-  west: 7.2391319274902335
-  north: 50.82605366331441
-  east: 7.284407615661621
+  south: 50.91981
+  west: 7.198963
+  north: 50.974644
+  east: 7.380066
 --- !u!4 &687892592
 Transform:
   m_ObjectHideFlags: 0
@@ -157,6 +158,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &687892593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 687892590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7628db93835542958adf7e228d19a108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1150806916
 GameObject:
   m_ObjectHideFlags: 0
